@@ -1,0 +1,147 @@
+1. Свертаны страницы Магазина (store.html) и Медиа (media.html)
+
+2. Созданы файлы 
+2.1 Для store.html 
+	- rs-store.css
+	- rs-tour.css
+	- rs-map.js
+2.2 Для media.html
+	- rs-banner-video.css
+	- rs-media-news.css
+	- rs-podcast.css
+	- rs-banner-video.js
+	- rs-podcast.js
+
+3. Добавлены стили для main в rs-style.css
+@media (min-width: 993px) {
+	._page-container {
+		padding-left: 47px;
+		padding-right: 47px;
+	}
+	._page-container [class*="__container"] {
+		padding-left: 49px;
+		padding-right: 49px;
+		border-left: 1px solid #DDDDDD;
+		border-right: 1px solid #DDDDDD;
+	}
+}
+@media (max-width: 1920px) and (min-width: 993px) {
+	._page-container {
+		padding-left: calc(10px + (47 - 10) * ((100vw - 992px) / (1920 - 992)));
+		padding-right: calc(10px + (47 - 10) * ((100vw - 992px) / (1920 - 992)));
+	}
+	._page-container [class*="__container"] {
+		padding-left: calc(10px + (49 - 10) * ((100vw - 992px) / (1920 - 992)));
+		padding-right: calc(10px + (49 - 10) * ((100vw - 992px) / (1920 - 992)));
+	}
+}
+@media (max-width: 992px) {
+	._page-container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 992px) {
+	._page-container [class*="__container"] {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+4. Добавлены стили для класса .rs-slider-store в rs-slider.css
+.rs-slider-store {
+	height: 722px;
+	padding: 45px 49px 0px;
+	background-color: transparent;
+}
+@media (min-width:993px) {
+	.rs-slider-store {
+		border-left: 1px solid #DDDDDD;
+		border-right: 1px solid #DDDDDD;
+	}
+}
+@media (max-width: 1920px) and (min-width: 993px) {
+	.rs-slider-store {
+		padding: calc(0px + (49 - 0) * ((100vw - 992px) / (1920 - 992))) calc(15px + (49 - 15) * ((100vw - 992px) / (1920 - 992))) 0px;
+	}
+}
+@media (max-width: 1920px) {
+	.rs-slider-store {
+		height: calc(240px + (722 - 240) * ((100vw - 320px) / (1920 - 320)));
+	}
+}
+@media (max-width: 992px) {
+	.rs-slider-store {
+		padding: 0px 15px;
+	}
+	.rs-slider-store .rs-slider__slider {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
+5. Добавлены общие стили в rs-common-style.css
+.xxl-medium-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 49px;
+	letter-spacing: 0.05em;
+}
+@media (max-width: 1920px) {
+	.xxl-medium-title {
+		font-size: calc(22px + (36 - 22) * ((100vw - 320px) / (1920 - 320)));
+		line-height: calc(30px + (49 - 30) * ((100vw - 320px) / (1920 - 320)));
+	}
+}
+.sm-bold-title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 23px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+@media (max-width: 1920px) {
+	.sm-bold-title {
+		font-size: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+		line-height: calc(20px + (23 - 20) * ((100vw - 320px) / (1920 - 320)));
+	}
+}
+.sm-regular-title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.rs-btn._black-border-btn {
+	border: 1px solid #000000;
+	background-color: transparent;
+	color: #000;
+}
+@media (any-hover: hover) {
+	.rs-btn._black-border-btn:hover {
+		background-color: #000;
+		color: #fff;
+	}
+}
+
+6. Добавлена на странице clients.html в табах верстка для Размерной сетки
+
+7. Добавлены стили верстки Размерной сетки в файл css/pages/clients/rs-client-info.css в самом конце (строка 326)
+
+8. Правки хедера
+8.1 К стилям для скролла был добавлен медиа-запрос
+@media (min-width:993px) {
+	.rs-header._header-fixed .rs-header__logo {
+		transform: scale(0.9);
+	}
+	.rs-header._header-fixed .rs-header__function {
+		transform: scale(0.9);
+	}
+	.rs-header._header-fixed .rs-header__menu {
+		transform: scale(0.9);
+	}
+}

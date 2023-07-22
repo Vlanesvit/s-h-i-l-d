@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500,700&display=swap);
+
+@font-face {
+	font-family: "icons";
+	src: url("../fonts/icons.eot?vmm5e8");
+	src: url("../fonts/icons.eot?vmm5e8#iefix") format("embedded-opentype"), url("../fonts/icons.ttf?vmm5e8") format("truetype"), url("../fonts/icons.woff?vmm5e8") format("woff"), url("../fonts/icons.svg?vmm5e8#icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icons" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filter:before {
+	content: "\e900";
+}
+
+.icon-icon_4:before {
+	content: "\e901";
+}
+
+.icon-inst:before {
+	content: "\e902";
+}
+
+.icon-inst-border:before {
+	content: "\e903";
+}
+
+.icon-menu-arrow_down:before {
+	content: "\e904";
+}
+
+.icon-menu-arrow_left:before {
+	content: "\e905";
+}
+
+.icon-menu-arrow_right:before {
+	content: "\e906";
+}
+
+.icon-person:before {
+	content: "\e907";
+}
+
+.icon-search:before {
+	content: "\e908";
+}
+
+.icon-slider-arrow_left:before {
+	content: "\e909";
+}
+
+.icon-slider-arrow_right:before {
+	content: "\e90a";
+}
+
+.icon-tg:before {
+	content: "\e90b";
+}
+
+.icon-truck:before {
+	content: "\e90c";
+}
+
+.icon-video-controls:before {
+	content: "\e90d";
+}
+
+.icon-vk:before {
+	content: "\e90e";
+}
+
+.icon-wa:before {
+	content: "\e90f";
+}
+
+.icon-youtube:before {
+	content: "\e910";
+}
+
+.icon-arrow_back:before {
+	content: "\e911";
+}
+
+.icon-bag:before {
+	content: "\e912";
+}
+
+.icon-heart:before {
+	content: "\e914";
+}
+
+.icon-icon_1:before {
+	content: "";
+	width: 13px;
+	height: 13px;
+	display: block;
+	background: #000;
+	border-radius: 100%;
+}
+
+.icon-close:before {
+	content: "\e913";
+}
+
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	scrollbar-color: #000 #fff;
+	scrollbar-width: thin;
+}
+
+*::-moz-selection {
+	background: #000;
+	color: #000;
+}
+
+*::selection {
+	background: #000;
+	color: #000;
+}
+
+*::-webkit-scrollbar {
+	cursor: pointer;
+	width: 6px;
+	background: transparent;
+	border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: #000;
+	-webkit-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	border-radius: 4px;
+}
+
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scrollbar-color: #000 #000;
+	scrollbar-width: thin;
+}
+
+*::before::-moz-selection,
+*::after::-moz-selection {
+	background: #000;
+	color: #000;
+}
+
+*::before::selection,
+*::after::selection {
+	background: #000;
+	color: #000;
+}
+
+*::before::-webkit-scrollbar,
+*::after::-webkit-scrollbar {
+	cursor: pointer;
+	width: 6px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+*::before::-webkit-scrollbar-thumb,
+*::after::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: transparent;
+	-webkit-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	border-radius: 4px;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 30px;
+}
+
+@media (max-width: 1169px) {
+	html {
+		scroll-padding-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1169 - 320)));
+	}
+}
+
+html,
+body {
+	min-width: 320px;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+body {
+	color: #000;
+	line-height: 1;
+	font-family: "Manrope";
+	font-size: 14px;
+	background-color: #fff;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+input,
+button,
+textarea {
+	outline: none;
+	font-family: "Manrope";
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: transparent;
+}
+
+button:active,
+button:focus {
+	outline: none !important;
+}
+
+button::-moz-focus-inner {
+	border: 0 !important;
+}
+
+a {
+	cursor: pointer;
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+body.lock {
+	overflow: hidden;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper>main {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.wrapper>* {
+	min-width: 0;
+}
+
+@media (min-width: 993px) {
+	._page-container {
+		padding-left: 47px;
+		padding-right: 47px;
+	}
+
+	._page-container [class*="__container"] {
+		padding-left: 49px;
+		padding-right: 49px;
+		border-left: 1px solid #DDDDDD;
+		border-right: 1px solid #DDDDDD;
+	}
+}
+
+@media (max-width: 1920px) and (min-width: 993px) {
+	._page-container {
+		padding-left: calc(10px + (47 - 10) * ((100vw - 992px) / (1920 - 992)));
+		padding-right: calc(10px + (47 - 10) * ((100vw - 992px) / (1920 - 992)));
+	}
+
+	._page-container [class*="__container"] {
+		padding-left: calc(10px + (49 - 10) * ((100vw - 992px) / (1920 - 992)));
+		padding-right: calc(10px + (49 - 10) * ((100vw - 992px) / (1920 - 992)));
+	}
+}
+
+@media (max-width: 992px) {
+	._page-container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 992px) {
+	._page-container [class*="__container"] {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	max-width: 1920px;
+}
+
+@media (max-width: 1920px) and (min-width: 993px) {
+	[class*="__container"] {
+		padding: 0px calc(15px + (50 - 15) * ((100vw - 992px) / (1920 - 992))) 0px;
+	}
+}
+
+@media (max-width: 992px) {
+	[class*="__container"] {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

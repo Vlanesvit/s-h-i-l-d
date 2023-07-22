@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lightgallery-bundle.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lg-zoom.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<link rel="stylesheet" href="css/rs-style.css">
+	<link rel="stylesheet" href="css/rs-common-style.css">
+	<title>Питерский щит - Клиентам</title>
+</head>
+
+<body>
+
+	<!-- wrapper -->
+	<div class="wrapper">
+
+		<!-- rs-header -->
+		<link rel="stylesheet" href="css/rs-header.css">
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header _black-header">
+				<div class="rs-header__container">
+					<button type="button" class="menu__icon icon-menu"><span></span><span></span></button>
+
+					<div class="rs-header__logo">
+						<a href="#">
+							<img src="./img/header/logo.svg" alt="">
+							<img src="./img/header/logo-title.svg" alt="">
+						</a>
+					</div>
+
+					<div class="rs-header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu-item dropdown">
+									<a href="#">Каталог<i class="icon-menu-arrow_down"></i></a>
+
+									<ul class="dropdown-menu">
+										<li class="menu-item">
+											<a href="#">Новые поступления</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Смотреть все</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Куртки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Худи и свитшоты</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Футболки и поло</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Рубашки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Брюки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Шорты</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Коллекции</a>
+								</li>
+
+								<li class="menu-item dropdown">
+									<a href="#">Медиа<i class="icon-menu-arrow_down"></i></a>
+
+									<ul class="dropdown-menu">
+										<li class="menu-item">
+											<a href="#">Видео</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Подкасты </a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Клиентам</a>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Магазин</a>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Бренд</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="rs-header__function">
+						<div class="rs-header__buttons" data-da=".rs-header__menu .menu__body, 992, last">
+							<div class="rs-header__account">
+								<a href="#">Вход в аккаунт</a>
+							</div>
+
+							<ul class="rs-header__language">
+								<li><a href="#">RU</a></li>
+								<li><a href="#">EN</a></li>
+							</ul>
+						</div>
+
+						<div class="rs-header__search">
+							<button id="search-show" class="search-btn icon-search" type="button"></button>
+						</div>
+
+						<ul class="rs-header__action">
+							<li><a href="#" class="icon-person"></a></li>
+							<li><a href="#" class="icon-heart"><span>3</span></a></li>
+							<li><a href="#" class="icon-bag"><span>7</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="search" data-da=".rs-header__menu .menu__body, 992, first">
+				<div class="search__overlay">
+					<div class="cursor">
+						<div class="cursor__point-zero">
+							<div class="cursor__wrapper">
+								<div class="cursor__circle icon-close"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search__wrapper">
+					<form action="#" class="search__form">
+						<div class="search__field">
+							<button id="search-submit" class="search__submit icon-search" type="submit"></button>
+							<input autocomplete="off" type="text" name="form[]" placeholder="Я ищу..." class="search__input" required>
+							<button id="search-clear" class="search__clear icon-close" type="button"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</header>
+		<!-- /rs-header -->
+
+		<!-- page -->
+		<main class="page">
+
+			<!-- rs-client-info -->
+			<link rel="stylesheet" href="css/pages/clients/rs-client-info.css">
+			<script src="js/pages/common/tabs.js" defer></script>
+			<script src="js/pages/clients/rs-clients-info.js" defer></script>
+			<section class="rs-client-info">
+				<div class="rs-client-info__container">
+					<h2 class="section-title">Клиентам</h2>
+
+					<div data-tabs="992" class="rs-client-info__tabs tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active">Доставка <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Оплата <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Обмен и возврат <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Размерная сетка <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Контакты <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Политика конфиденциальности <i class="tabs__icon"></i></button>
+							<button type="button" class="tabs__title">Пользовательское соглашение <i class="tabs__icon"></i></button>
+						</nav>
+
+						<div class="rs-client-info__wrapper">
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body">
+									<h2 class="section-title">Доставка</h2>
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Онлайн-консультант</h4>
+										<div class="contact-list">
+											<ul>
+												<li>Телефон: <a href="tel:79311030582">+7 (931) 103-05-82</a></li>
+												<li>Режим работы: <span>Пн-Пт: с 10.00 до 18.00</span></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Доставка по Санкт-Петербургу</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>Доставка до двери – 250 ₽. Бесплатно от 5000 ₽.</li>
+												<li>Доставка осуществляется службой КТС. Срок доставки 2-3 дня.</li>
+												<li>Доставка происходит только в будние дни.</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Доставка по Москве</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>Доставка до пункта выдачи – 250 ₽. Бесплатно от 5000 ₽.</li>
+												<li>Доставка до двери – 450 ₽.</li>
+												<li>Доставка осуществляется службой СДЭК. Срок доставки 2-3 дня.</li>
+											</ul>
+											<p class="section-text">
+												Сообщим ожидаемый срок и трек-номер по электронной почте в течение дня после оплаты. В
+												праздничные дни и в период проведения распродажи сроки обработки и доставки заказов могут
+												быть увеличены на 5-6 рабочих дней.
+											</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Доставка по России, Беларуси, Казахстану</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>Доставка осуществляется службой СДЭК до пункта выдачи в вашем городе или до двери.
+													Почтой России, если в вашем городе нет пункта выдачи СДЭК.</li>
+												<li>Доставка до отделения Почты России (если нет отделения СДЭК) – 250 ₽. Бесплатно от 5000
+													₽.</li>
+												<li>Доставка до двери службой СДЭК (при наличии отделения СДЭК в городе) – 450 ₽.</li>
+												<li>Доставка до двери службой СДЭК (при отсутствии отделения СДЭК в городе) – 1000 ₽.</li>
+												<li>Бесплатно от 10000 ₽.</li>
+												<li>Стоимость доставки считается автоматически при оформлении заказа.</li>
+											</ul>
+											<p class="section-text">
+												В праздничные дни и в период проведения распродажи сроки обработки и доставки заказов могут
+												быть увеличены на 5-6 рабочих дней.
+											</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Доставка по миру</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>Доставка осуществляется службой DHL.</li>
+											</ul>
+											<p class="section-text">
+												Стоимость доставки считается автоматически при оформлении заказа. Стоимость отправления
+												зависит от удаленности страны и веса посылки.
+											</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Самовывоз из фирменного магазина</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>Бесплатно, при оплате заказа на сайте.</li>
+											</ul>
+											<p class="section-text">
+												На ваш номер телефона придет смс оповещение о готовности заказа. Для получения заказа
+												назовите его номер.
+											</p>
+											<p class="section-text">
+												Срок сбора заказа может увеличиться, если в день заказа товар закончится в магазине.
+											</p>
+											<p class="section-text">
+												Срок хранения оплаченного заказа 1 месяц.
+											</p>
+											<a href="#">Адрес и режим работы магазина.</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Оплата</h2>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Онлайн-консультант</h4>
+										<div class="contact-list">
+											<ul>
+												<li>Телефон: <a href="tel:79311030582">+7 (931) 103-05-82</a></li>
+												<li>Режим работы: <span>Пн-Пт: с 10.00 до 18.00</span></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Магазин</h4>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Оплата товара в магазине на Жуковского 13 возможна следующими
+												способами: </p>
+											<ul class="check-list">
+												<li>наличные;</li>
+												<li>банковская карта;</li>
+												<li>сертификат;</li>
+												<li>комбинированный (при оплате товара вы можете использовать вышеперечисленные способы
+													одновременно, поделив сумму чека).</li>
+											</ul>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">
+												Сертификатом можно оплатить товар полностью или частично. Если номинал сертификата не
+												покрывает стоимость товара, оставшуюся сумму вы сможете оплатить наличными или картой.
+											</p>
+											<p class="section-text">
+												Обратите внимание, сертификаты могут иметь срок, в течение которого его необходимо
+												использовать.
+											</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Интернет-магазин</h4>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Банковской картой онлайн</p>
+											<p class="section-text">
+												При оформлении заказа выберите форму оплаты «Оплата картой онлайн». При оплате заказа
+												банковской картой ввод реквизитов карты происходит в системе электронных платежей ПАО АКБ
+												«Авангард», который прошел сертификацию в платежных системах Visa, MasterCard и МИР.
+												Представленные вами данные полностью защищены и никто, включая наш интернет-магазин, не
+												может их получить.
+											</p>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Принимаем:</p>
+											<ul class="check-list">
+												<li>банковские карты Visa (в том числе Electron), MasterCard, Maestro, JCB и МИР;</li>
+												<li>мобильные платежи в системах Apple Pay и Google Pay.</li>
+											</ul>
+											<p class="section-text">Оплата происходит в защищённом режиме через CloudPayments.</p>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Сертификатом</p>
+											<p class="section-text">
+												Сертификатом можно оплатить товар полностью или частично. При оформлении заказа укажите в
+												комментарии «Оплата сертификатом» и пришлите, пожалуйста, фотографию обратной стороны
+												сертификата со штрихкодом на электронную почту spbshield@yandex.ru с указанием номера заказа
+												в теме письма. Если номинал сертификата не покрывает стоимость заказа, оставшуюся сумму вы
+												сможете оплатить онлайн.
+											</p>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">
+												Обратите внимание, сертификаты могут иметь срок, в течение которого его необходимо
+												использовать.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Обмен и возврат</h2>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Онлайн-консультант</h4>
+										<div class="contact-list">
+											<ul>
+												<li>Телефон: <a href="tel:79311030582">+7 (931) 103-05-82</a></li>
+												<li>Режим работы: <span>Пн-Пт: с 10.00 до 18.00</span></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Обмен и возврат </h4>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">
+												Сообщите нам на <a href="mailto:spbshield@yandex.ru">spbshield@yandex.ru</a>
+												или по номеру <a href="tel:79111030582">+7 (911) 103-05-82</a>,
+												если нужно обменять или вернуть товар по заказу, оформленному в интернет-магазине.
+											</p>
+											<p class="section-text">
+												Все заявки на обмены/возвраты обрабатываются в течении 48 часов.
+											</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Условия</h4>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">
+												Отправим новый товар или вернём деньги, если:
+											</p>
+											<ul class="check-list">
+												<li>товаром не пользовались и сохранены бирки;</li>
+												<li>товар купили на официальном сайте или магазине бренда;</li>
+												<li>с момента получения прошло до 14 дней;</li>
+												<li>товар оказался бракованным.</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Способы</h4>
+
+										<div class="rs-client-info__part">
+											<ul class="check-list">
+												<li>В фирменном магазине</li>
+											</ul>
+											<p class="section-text">Заказ можно вернуть в фирменный магазин на Жуковского 13. Для
+												оформления возврата нужен чек, продукция и бирки.</p>
+
+											<ul class="check-list">
+												<li>Оформление возврата онлайн</li>
+											</ul>
+											<p class="section-text">Для оформления возврата продукции, купленной на официальном сайте
+												бренда, нужно написать на почту
+												<a href="mailto:spbshield@yandex.ru">spbshield@yandex.ru</a>.
+											</p>
+
+											<p class="section-text">В письме нужно указать:</p>
+											<ul class="check-list">
+												<li>номер заказа;</li>
+												<li>причина, по которой меняете или возвращаете товар (если это брак производственного
+													характера нужно приложить фотографию дефекта);</li>
+												<li>название модели и нужный размер (для обмена);</li>
+												<li>ФИО получателя.</li>
+											</ul>
+
+											<p class="section-text">При возврате денежных средств за заказы, отправленные по условию
+												«Бесплатная доставка», компанией будет удержана сумма доставки из суммы возврата (за
+												исключением случая с производственным браком товара).</p>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Как и когда вернутся деньги</h4>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Деньги вернутся на карту, с которой производилась оплата,
+												ориентировочно в течении 10 рабочих дней. Пожалуйста, учитывайте, что на карту деньги могут
+												поступить позже, срок обработки платежа зависит от вашего банка.</p>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Отсчет начинается на следующий день после того, как вы вернули товар в
+												магазин. Если вы вызывали курьера за возвратом, отсчет начинается на следующий день после
+												поступления товара на наш склад.</p>
+										</div>
+
+										<div class="rs-client-info__part">
+											<p class="section-text">Если ваши реквизиты менялись, об этом нужно сообщить дополнительно.
+												Если вы хотите получить информацию о статусе вашего возврата, свяжитесь с нами по номеру
+												<a href="tel:79111030582">+7 (911) 103-05-82</a>.
+											</p>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Гид по размерам</h2>
+									<p class="section-text">Используйте таблицу ниже, чтобы определить размер на основе cвоих мерок. Если
+										ваши параметры соответствуют двум размерам, закажите модель меньшего размера для более плотной
+										посадки и модель большего размера для более свободной. Если обхват груди и обхват талии
+										соответствуют разным размерам, выберите размер, которому соответствуют параметры груди.</p>
+
+									<div class="rs-client-info__size">
+										<div data-tabs class="rs-client-info__size_tabs tabs">
+											<nav data-tabs-titles class="tabs__navigation">
+												<button type="button" class="tabs__title _tab-active">Худи / футболки</button>
+												<button type="button" class="tabs__title">Брюки / шорты</button>
+											</nav>
+											<div data-tabs-body class="tabs__content">
+												<div class="tabs__body">
+													<div class="rs-client-info__block">
+														<div class="rs-client-info__size_table">
+															<table>
+																<thead>
+																	<tr>
+																		<th>Размер</th>
+																		<th>Размер (RU)</th>
+																		<th><span>1</span> Грудь (см)</th>
+																		<th><span>2</span> Талия (см)</th>
+																		<th><span>3</span> Бедра (см)</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>XS</td>
+																		<td>40 - 42</td>
+																		<td>82 - 87</td>
+																		<td>71 - 75</td>
+																		<td>82 - 86</td>
+																	</tr>
+																	<tr>
+																		<td>S</td>
+																		<td>44 - 46</td>
+																		<td>88 - 94</td>
+																		<td>76 - 82</td>
+																		<td>87 - 93</td>
+																	</tr>
+																	<tr>
+																		<td>M</td>
+																		<td>48 - 50</td>
+																		<td>95 - 102</td>
+																		<td>83 - 90</td>
+																		<td>94 - 101</td>
+																	</tr>
+																	<tr>
+																		<td>L</td>
+																		<td>52 - 54</td>
+																		<td>103 - 111</td>
+																		<td>91 - 99</td>
+																		<td>102 - 110</td>
+																	</tr>
+																	<tr>
+																		<td>XL</td>
+																		<td>56 - 58</td>
+																		<td>112 - 121</td>
+																		<td>100 - 109</td>
+																		<td>111 - 119</td>
+																	</tr>
+																	<tr>
+																		<td>XXL</td>
+																		<td>60 - 62</td>
+																		<td>122 - 132</td>
+																		<td>110 - 122</td>
+																		<td>120 - 128</td>
+																	</tr>
+																	<tr>
+																		<td>XXXL</td>
+																		<td>64 - 66</td>
+																		<td>133 - 144</td>
+																		<td>122 - 134</td>
+																		<td>129 - 138</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div class="rs-client-info__size_tippy tippy">
+															<div class="tippy__img">
+																<img src="./img/pages/clients/table-size/table_1.svg" alt="">
+															</div>
+															<div class="tippy__list">
+																<div class="tippy__item _active-tippy tippy__item-1">
+																	<div class="tippy__number">1</div>
+																	<div class="tippy__text">
+																		Измерьте портновским сантиметром обхват самой широкой части груди. Держите
+																		сантиметр горизонтально.
+																	</div>
+																</div>
+																<div class="tippy__item tippy__item-2">
+																	<div class="tippy__number">2</div>
+																	<div class="tippy__text">
+																		Измерьте объём самой узкой части тела (как правило, чуть выше пупка, место сгиба при
+																		наклоне в сторону). Следите, чтобы измерительная лента была расположена
+																		горизонтально.
+																	</div>
+																</div>
+																<div class="tippy__item tippy__item-3">
+																	<div class="tippy__number">3</div>
+																	<div class="tippy__text">
+																		Поставьте ноги вместе и измерьте объём самой широкой части бёдер. Следите, чтобы
+																		измерительная лента была расположена горизонтально.
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="tabs__body">
+													<div class="rs-client-info__block">
+														<div class="rs-client-info__size_table">
+															<table>
+																<thead>
+																	<tr>
+																		<th>Размер</th>
+																		<th>Размер (RU)</th>
+																		<th><span>1</span> Талия (см)</th>
+																		<th><span>2</span> Бедра (см)</th>
+																		<th><span>3</span> Стандартный внутренний шов (см)</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>XS</td>
+																		<td>40 - 42</td>
+																		<td>71 - 75</td>
+																		<td>82 - 86</td>
+																		<td>82</td>
+																	</tr>
+																	<tr>
+																		<td>S</td>
+																		<td>44 - 46</td>
+																		<td>76 - 82</td>
+																		<td>87 - 93</td>
+																		<td>82,5</td>
+																	</tr>
+																	<tr>
+																		<td>M</td>
+																		<td>48 - 50</td>
+																		<td>83 - 90</td>
+																		<td>94 - 101</td>
+																		<td>83</td>
+																	</tr>
+																	<tr>
+																		<td>L</td>
+																		<td>52 - 54</td>
+																		<td>91 - 99</td>
+																		<td>102 - 110</td>
+																		<td>83,5</td>
+																	</tr>
+																	<tr>
+																		<td>XL</td>
+																		<td>56 - 58</td>
+																		<td>100 - 109</td>
+																		<td>111 - 119</td>
+																		<td>84</td>
+																	</tr>
+																	<tr>
+																		<td>XXL</td>
+																		<td>60 - 62</td>
+																		<td>110 - 122</td>
+																		<td>120 - 128</td>
+																		<td>84,5</td>
+																	</tr>
+																	<tr>
+																		<td>XXXL</td>
+																		<td>64 - 66</td>
+																		<td>122 - 134</td>
+																		<td>129 - 138</td>
+																		<td>85</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div class="rs-client-info__size_tippy tippy">
+															<div class="tippy__img">
+																<img src="./img/pages/clients/table-size/table_2.svg" alt="">
+															</div>
+															<div class="tippy__list">
+																<div class="tippy__item _active-tippy tippy__item-4">
+																	<div class="tippy__number">1</div>
+																	<div class="tippy__text">
+																		Измерьте объём самой узкой части тела (как правило, чуть выше пупка, место сгиба при
+																		наклоне в сторону). Следите, чтобы измерительная лента была расположена
+																		горизонтально.
+																	</div>
+																</div>
+																<div class="tippy__item tippy__item-5">
+																	<div class="tippy__number">2</div>
+																	<div class="tippy__text">
+																		Поставьте ноги вместе и измерьте объём самой широкой части бёдер. Следите, чтобы
+																		измерительная лента была расположена горизонтально.
+																	</div>
+																</div>
+																<div class="tippy__item tippy__item-6">
+																	<div class="tippy__number">3</div>
+																	<div class="tippy__text">
+																		Измерьте расстояние от верхней части бёдер до пола, как показано на рисунке.
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="rs-client-info__item rs-client-info__consult">
+										<h4 class="s-bold-title">Онлайн-консультант</h4>
+										<div class="contact-list">
+											<ul>
+												<li><a href="tel:79622320369">+7 962 232-03-69 (Telegram, WhatsApp)</a></li>
+												<li><span>Ежедневно 10:00-18:00 (GMT+3, МСК)</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Контакты</h2>
+
+									<div class="rs-client-info__item">
+										<h4 class="s-bold-title">Реквизиты</h4>
+										<p class="section-text">Индивидуальный предприниматель Рязанцев Константин Александрович. <br>
+											ИНН 780728217993 <br>
+											ОГРНИП 318784700204426
+										</p>
+
+										<p class="section-text">Юридический адрес: г. Санкт-Петербург, пр-кт Маршала Жукова, д. 35, к.
+											3, кв. 89</p>
+									</div>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Политика конфиденциальности</h2>
+								</div>
+
+								<div class="tabs__body">
+									<h2 class="section-title">Пользовательское соглашение</h2>
+								</div>
+							</div>
+
+							<!-- rs-form -->
+							<link rel="stylesheet" href="css/pages/clients/rs-form.css">
+							<section class="rs-form">
+								<div class="rs-form__container">
+									<h2 class="section-title">Свяжитесь с нами</h2>
+									<div class="rs-form__wrapper">
+										<form action="#" class="form">
+											<div class="form-wrapper">
+												<div class="form-block">
+													<div class="form-field">
+														<textarea autocomplete="off" name="form[]"
+															placeholder="Задайте вопрос или напишите ваши пожелания и предложения"
+															class="rs-input"></textarea>
+													</div>
+													<div class="form-fields">
+														<div class="form-field">
+															<input autocomplete="off" type="tel" name="form[]" required placeholder="Ваше имя"
+																class="rs-input">
+														</div>
+														<div class="form-field">
+															<input autocomplete="off" type="email" name="form[]" required placeholder="E-mail"
+																class="rs-input">
+														</div>
+													</div>
+
+													<div class="form-footer">
+														<div class="form-agreement">
+															Нажимая на кнопку «Отправить», Вы соглашаетесь на обработку персональных данных в
+															соответствии с
+															<a href="#">пользовательским соглашением</a>
+														</div>
+														<div class="form-button">
+															<button type="submit" class="rs-btn _background-btn _black-btn">Отправить</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</section>
+							<!-- /rs-form -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-client-info -->
+
+		</main>
+		<!-- /page -->
+
+		<!-- rs-footer -->
+		<link rel="stylesheet" href="css/rs-footer.css">
+		<footer>
+			<div class="rs-footer">
+				<div class="rs-footer__container">
+					<div class="rs-footer__list" data-da=".rs-footer__container, 992, first">
+						<div class="rs-footer__item">
+							<h6 class="small-title">магазин</h6>
+
+							<div class="contact-list">
+								<ul>
+									<li><a href="tel:79213443330">+7 (921) 344-33-30</a></li>
+									<li><span>Пн-Вс: с 12:00 до 21:00</span></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__item">
+							<h6 class="small-title">интернет-магазин</h6>
+
+							<div class="contact-list">
+								<ul>
+									<li><a href="tel:79311030582">+7 (931) 103-05-82</a></li>
+									<li><span>Пн-Пт: с 10.00 до 18.00 </span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__center" data-da=".rs-footer__container, 992, last">
+						<div class="rs-footer__logo">
+							<a href="#">
+								<img src="./img/footer/logo-white.svg" alt="">
+							</a>
+						</div>
+
+						<div class="rs-footer__social">
+							<div class="social-list">
+								<ul>
+									<li><a href="#" class="tg-link icon-tg"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="yt-link icon-youtube"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="vk-link icon-vk"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="wa-link icon-wa"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="inst-link icon-inst"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+								</ul>
+							</div>
+
+							<div class="rs-footer__bottom">
+								<div class="rs-footer__copyright">
+									© Питерский Щит 2022. Все права защищены.
+								</div>
+								<div class="rs-footer__develop">
+									<a href="#">Разработано в россайт</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__list" data-da=".rs-footer__container, 992, 0">
+						<div class="rs-footer__item">
+							<div class="contact-list">
+								<ul>
+									<li><a href="spbshield@yandex.ru">spbshield@yandex.ru </a></li>
+									<li><span>Санкт-Петербург, ул. Жуковского, 13</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /rs-footer -->
+
+	</div>
+	<!-- /wrapper -->
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/lightgallery@2.4.0/lightgallery.min.js"></script>
+	<script src="https://unpkg.com/lightgallery@2.4.0/plugins/zoom/lg-zoom.umd.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 500,
+			easing: 'ease-out-quart',
+			once: true
+		});
+	</script>
+	<script src="lib/dynamic_adapt.js"></script>
+	<script src="js/rs-script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lightgallery-bundle.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/lightgallery@2.4.0/css/lg-zoom.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<link rel="stylesheet" href="css/rs-style.css">
+	<link rel="stylesheet" href="css/rs-common-style.css">
+	<title>Питерский щит</title>
+</head>
+
+<body>
+
+	<!-- preloader -->
+	<link rel="stylesheet" href="css/preloader.css">
+	<script src="js/preloader.js" defer></script>
+	<div class="preloader">
+		<svg viewBox="0 0 101.872 120.937">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="0, 1001.72"
+			stroke-dashoffset="0" d="M29.266,81.138
+				c-1.32-2.21-2.343-4.615-3.643-6.835l7.49,3.82l2.21,1.12l2.3,1.14l2.36,1.15c1,0.49,1.95,0.94,2.77,1.32s1.78,0.83,2.71,1.24
+				s1.79,0.79,2.63,1.15s1.66,0.69,2.56,1l0.31,0.12l0.38,0.13l0.65-0.26c1.57-0.66,3.09-1.32,4.57-2s2.94-1.37,4.56-2.16
+				s3.16-1.56,4.58-2.27l4.54-2.31l6.26-3.2c-1.46,2.46-2.9,4.93-4.38,7.37l0,0l-1.2,1.93l0,0l-0.74,1.19l-0.81,1.27l-0.8,1.23
+				l-0.81,1.23l-0.84,1.25l-0.81,1.19l-0.8,1.17l-1,1.37l-1,1.34l-1,1.36l-1,1.34l-1,1.31l-1,1.28l-1,1.3l-1,1.23l-0.89,1.13
+				l-0.91,1.12l-0.83,1c-1.23,1.47-2.48,2.91-3.75,4.35c-1.61-1.75-2.93-3.25-4.43-5.08l-0.21-0.26l0,0l-0.24-0.29l0,0l-0.23-0.28
+				l-1.09-1.31l0,0l-1.2-1.49l0,0l-2-2.64l-1-1.29l-1-1.34l-1-1.36l-1-1.35l-1-1.35l-0.81-1.16l-0.82-1.2l-0.777-1.035l-0.82-1.23
+				l-0.77-1.18l-0.77-1.18l-0.78-1.23l-0.76-1.21c-0.031-0.058-0.064-0.115-0.1-0.17l0,0l-0.09-0.17c-0.08-0.12-0.77-1.25-0.77-1.27
+				V81.138z M82.802,61.223l-0.6,1.44l-3.58-0.27l-2.36-0.17l-2.4-0.16l-2.42-0.15l-2.09-0.13l-2.09-0.12l-2.11-0.11l-15.12-0.7
+				c8.27-1.79,10.72-2.61,19.06-4.07c1.17-0.21,8.3-1.51,9.77-1.74c1.32-0.2,2.62-0.39,3.89-0.56l2.83-0.38l-1.51,3.95l0,0
+				c0,0-1.28,3.14-1.28,3.16L82.802,61.223z M89.972,40.223l-1.88,6l-3.34-0.39l-1.93-0.22l-4-0.4l-2.31-0.22l-2.32-0.19l-2.26-0.18
+				l-2.21-0.16l-2.32-0.14l0,0l-2.32-0.13l-2.35-0.11l-2.36-0.09l-2.31-0.07l-2.3-0.05h-2.31h-4.64h-2.31l-2.29,0.05l-2.3,0.07l0,0
+				l-2.33,0.1l-2.33,0.11l-2.29,0.13l-2.3,0.15l0,0l-2.28,0.17l-2.33,0.2l-2.37,0.21l-2.35,0.23l-2,0.22l-2,0.22l-2,0.25l-3.41,0.43
+				l-0.64-2c-0.59-1.86-1.18-3.71-1.79-5.8l-0.49-1.68l0,0c-0.32-1.13-0.63-2.27-0.94-3.41l-0.4-1.53l0,0l-0.38-1.47l0,0
+				c-0.56-2.33-1.07-4.59-1.55-6.94l3.11-0.74l1.39-0.34l1.06-0.28l1-0.28l2.24-0.62l2.21-0.67l1-0.31l2-0.67l1-0.36l2.07-0.75l1-0.37
+				l1-0.39l1-0.41l1-0.41l1-0.42l1-0.44l1-0.44l1-0.46l2-1l1-0.49l1-0.49l0.6-0.3l0.59-0.31c0.88-0.47,1.75-1,2.63-1.45l1.85,3.3
+				c0.32,0.56,0.66,1.15,1,1.76s0.63,1.08,1,1.71l1,1.66c0.407,0.667,0.837,1.333,1.29,2c0.46,0.66,0.9,1.28,1.32,1.84
+				s0.86,1.12,1.34,1.69s0.91,1.06,1.37,1.53l0.1,0.1l0.1-0.1c0.48-0.5,0.93-1,1.37-1.53s0.88-1.1,1.32-1.7s0.85-1.18,1.31-1.85
+				s0.89-1.35,1.29-2s0.69-1.12,1-1.68l1-1.73l1-1.77l1.83-3.28l2,1.12l0.59,0.31l0,0l1.19,0.6l1,0.49l1,0.48l2,0.95l1,0.45l1,0.44
+				l1,0.43l1,0.41l1,0.41l1,0.4l2,0.76l1,0.37l1,0.35l1,0.35l1.05,0.35l1.07,0.34l1,0.33l1,0.3l2.38,0.67l2.16,0.58l1.12,0.28
+				l1.43,0.35l3.07,0.72l-0.26,1.34c-0.86,4.08-1.85,8-2.95,12l0,0c-0.27,1-0.82,2.57-1,3.48V40.223z M18.972,60.753l0.59,1.43
+				l1.47-0.45c1.813-0.56,3.62-1.1,5.42-1.62s3.563-1.02,5.29-1.5c1.68-0.47,3.4-0.93,5.16-1.4l5.12-1.32l1.91-0.48l3.66-0.9
+				l17.39-4.15l-15.85,0.33l-2.17,0.06l-2.2,0.07l-2.2,0.09l-2.19,0.11c-1.93,0.1-3.82,0.22-5.64,0.35s-3.67,0.3-5.62,0.48
+				s-3.78,0.38-5.51,0.58s-3.57,0.44-5.38,0.69l-2.11,0.3c0.54,1.41,1.07,2.82,1.62,4.23C18.122,58.653,18.502,59.603,18.972,60.753
+				L18.972,60.753z M19.129,76.078l0.933,1.875c0.24,0.46,0.5,1,0.78,1.47l0.8,1.48l0.82,1.47l0.81,1.42l0.85,1.47l0.86,1.45l0.85,1.38
+				l0.84,1.37l0.2,0.32c1,1.68,2.12,3.31,3.2,4.95c0.5,0.74,1,1.44,1.53,2.17c0.57,0.83,1.16,1.66,1.75,2.48l0.59,0.83l1,1.38
+				l0.15,0.21l0.22,0.28c0.18,0.24,0.37,0.48,0.54,0.73l0.5,0.67c0.177,0.189,0.338,0.393,0.48,0.61l0.27,0.38
+				c0.072,0.072,0.139,0.149,0.2,0.23c0.48,0.62,1.01,1.287,1.59,2c0.6,0.74,1.14,1.4,1.62,2c0.48,0.6,1,1.23,1.63,1.94
+				s1.14,1.32,1.65,1.89c0.51,0.57,1.14,1.28,1.67,1.86s1.14,1.24,1.69,1.82l1.68,1.74l1.71,1.72l0.57,0.56l0.57-0.57
+				c0.57-0.56,1.14-1.14,1.71-1.73s1.21-1.26,1.67-1.75l1.69-1.83l1.65-1.85l1.64-1.9l1.63-1.95c0.48-0.58,1-1.24,1.6-2
+				s1.1-1.38,1.59-2l1.5-2l1.47-2c0.38-0.507,0.86-1.173,1.44-2c0.48-0.68,1-1.36,1.42-2c0.42-0.64,0.88-1.29,1.25-1.84
+				s0.81-1.22,1.22-1.86l1.2-1.87c0.3-0.48,0.71-1.13,1.22-2l0.5-0.81l0.2-0.35c0.16-0.27,0.31-0.51,0.43-0.68l0.48-0.81l1.37-2.39
+				l1.32-2.36l0.31-0.56c0.31-0.55,0.6-1.1,0.89-1.63c0.18-0.34,0.49-0.92,0.92-1.77s0.7-1.34,0.93-1.8c0.23-0.46,0.61-1.21,0.91-1.82
+				c0.3-0.61,0.65-1.31,0.87-1.77c0.14-0.3,0.43-0.91,0.83-1.78c0.27-0.57,0.54-1.16,0.83-1.8c0.39-0.87,0.75-1.66,1.06-2.38
+				s0.65-1.53,1-2.39c0.35-0.86,0.71-1.71,1-2.38c0.28-0.69,0.59-1.49,0.93-2.38l0.9-2.4c0.32-0.88,0.6-1.68,0.84-2.37
+				s0.47-1.38,0.81-2.39s0.53-1.66,0.77-2.41l0.48-1.57l0.68-2.19l0.61-2l0.54-1.81l0.53-1.82l0.52-1.85l0.25-0.89
+				c0.306-0.945,0.559-1.907,0.76-2.88l0.52-2l0.22-0.9l0.41-1.76c0.21-0.95,0.41-1.91,0.62-2.87l0.38-1.92l0.17-0.92l0.31-1.81
+				l0.29-1.88l0.13-0.94l0.21-1.58l-1.43-0.23l-1.31-0.21l-1.32-0.25c-0.4-0.08-0.83-0.16-1.31-0.27l-1.34-0.29l-1.32-0.3l-1.33-0.33
+				c-0.39-0.09-0.84-0.21-1.35-0.35l-1.38-0.38l-1.35-0.4c-0.43-0.12-0.88-0.26-1.34-0.41l-1.37-0.44l-1.37-0.46l-1.36-0.47l-1.37-0.51
+				c-0.48-0.17-0.92-0.34-1.33-0.5s-0.94-0.36-1.32-0.52l-1.34-0.55l-1.32-0.57l-1.31-0.57l-1.27-0.59l-1.25-0.59l-1.24-0.61
+				l-1.25-0.64l-1.22-0.64l-1.17-0.65l-1.15-0.66l-1.1-0.64l-1.07-0.67l-1-0.65l-1-0.66c-0.3-0.21-0.61-0.42-0.93-0.66
+				c-0.32-0.24-0.57-0.4-0.9-0.66l-1.33-0.95l-0.14,0.32c-0.61,1.44-1.21,2.86-1.73,4.06s-1.14,2.59-1.74,3.86l-0.62,1.31l-0.63,1.26
+				c-0.15,0.3-0.36,0.7-0.64,1.23l-0.67,1.21l-1.47,2.59l-1.48-2.58c-0.21-0.36-0.43-0.76-0.67-1.2c-0.24-0.44-0.43-0.81-0.65-1.24
+				s-0.43-0.84-0.64-1.27c-0.21-0.43-0.43-0.88-0.63-1.3c-0.31-0.65-0.6-1.28-0.88-1.9s-0.59-1.31-0.87-1.95l-1.86-4.39l-1.29,1
+				l-0.89,0.65l-0.94,0.67l-1,0.67l-1,0.66l-1.09,0.68l-1.11,0.66c-0.32,0.19-0.69,0.41-1.13,0.65s-0.72,0.41-1.15,0.64l-1.2,0.65
+				l-1.22,0.63l-1.25,0.62l-1.28,0.62l-1.28,0.59l-1.29,0.59l-1.32,0.56c-0.6,0.26-1.05,0.45-1.34,0.56l-1.35,0.54
+				c-0.41,0.17-0.87,0.34-1.36,0.53l-1.35,0.48l-1.34,0.48l-1.37,0.46l-1.36,0.44l-1.35,0.43l-1.34,0.39l-1.34,0.38l-1.33,0.36
+				l-1.36,0.34l-1.34,0.32l-1.33,0.29l-1.33,0.28l-1.3,0.24c-0.51,0.1-1,0.17-1.32,0.23l-1.43,0.25l0.22,1.57l0.28,1.89l0.14,0.9
+				l0.33,1.84l0.17,0.91c0.13,0.67,0.26,1.31,0.39,1.93l0.42,1.94l0.2,0.89l0.43,1.78l0.48,1.91l0.26,1l0.52,2l0.5,1.8l0.56,1.93
+				l0.53,1.82l0.53,1.74l0.6,2l1.18,3.76l0.77,2.37c0.24,0.72,0.52,1.51,0.82,2.37c0.3,0.86,0.56,1.58,0.87,2.4s0.64,1.73,0.91,2.42
+				c0.27,0.69,0.61,1.55,0.94,2.39c0.33,0.84,0.68,1.65,1,2.37c0.32,0.72,0.62,1.44,1,2.37l0.9,2l0.89,1.81l0.21,0.46l0.37,0.76
+				c0.049,0.098,0.092,0.198,0.13,0.3c0.32,0.71,0.63,1.35,0.94,1.95s0.65,1.27,1,2L19.129,76.078z M43.402,1.163L43.402,1.163z
+				 M53.402,77.593c0,0,9.55-4.72,9.76-4.83l1-0.46l0.49-0.22l6.43-2.93l-7.74-0.34l-1.85-0.08l-2.53-0.08l-2.55-0.06h-2.58h-2.6l0,0
+				h-2.65l-2.62,0.06l-2.61,0.07l-2.59,0.1c-3.13,0-6.6,0.31-9.72,0.46l7.18,3.13l1.45,0.68c1.72,0.853,3.443,1.693,5.17,2.52l0,0
+				c2.15,1,4.29,2,6.45,3L53.402,77.593z" />
+		</svg>
+	</div>
+	<!-- /preloader -->
+
+	<!-- wrapper -->
+	<div class="wrapper">
+
+		<!-- rs-header -->
+		<link rel="stylesheet" href="css/rs-header.css">
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header rs-header--white _white-header">
+				<div class="rs-header__container">
+					<button type="button" class="menu__icon icon-menu"><span></span><span></span></button>
+
+					<div class="rs-header__logo">
+						<a href="#">
+							<img src="./img/header/logo.svg" alt="">
+							<img src="./img/header/logo-title.svg" alt="">
+						</a>
+					</div>
+
+					<div class="rs-header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu-item dropdown">
+									<a href="#">Каталог<i class="icon-menu-arrow_down"></i></a>
+
+									<ul class="dropdown-menu">
+										<li class="menu-item">
+											<a href="#">Новые поступления</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Смотреть все</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Куртки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Худи и свитшоты</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Футболки и поло</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Рубашки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Брюки</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Шорты</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Коллекции</a>
+								</li>
+
+								<li class="menu-item dropdown">
+									<a href="#">Медиа<i class="icon-menu-arrow_down"></i></a>
+
+									<ul class="dropdown-menu">
+										<li class="menu-item">
+											<a href="#">Видео</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Подкасты </a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Клиентам</a>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Магазин</a>
+								</li>
+
+								<li class="menu-item">
+									<a href="#">Бренд</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="rs-header__function">
+						<div class="rs-header__buttons" data-da=".rs-header__menu .menu__body, 992, last">
+							<div class="rs-header__account">
+								<a href="#">Вход в аккаунт</a>
+							</div>
+
+							<ul class="rs-header__language">
+								<li><a href="#">RU</a></li>
+								<li><a href="#">EN</a></li>
+							</ul>
+						</div>
+
+						<div class="rs-header__search">
+							<button id="search-show" class="search-btn icon-search" type="button"></button>
+						</div>
+
+						<ul class="rs-header__action">
+							<li><a href="#" class="icon-person"></a></li>
+							<li><a href="#" class="icon-heart"><span>3</span></a></li>
+							<li><a href="#" class="icon-bag"><span>7</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="search" data-da=".rs-header__menu .menu__body, 992, first">
+				<div class="search__overlay">
+					<div class="cursor">
+						<div class="cursor__point-zero">
+							<div class="cursor__wrapper">
+								<div class="cursor__circle icon-close"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search__wrapper">
+					<form action="#" class="search__form">
+						<div class="search__field">
+							<button id="search-submit" class="search__submit icon-search" type="submit"></button>
+							<input autocomplete="off" type="text" name="form[]" placeholder="Я ищу..." class="search__input" required>
+							<button id="search-clear" class="search__clear icon-close" type="button"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</header>
+		<!-- /rs-header -->
+
+		<!-- page -->
+		<main class="page">
+
+			<!-- rs-slider -->
+			<link rel="stylesheet" href="css/pages/main/rs-slider.css">
+			<script src="js/pages/main/rs-slider.js" defer></script>
+			<section class="rs-slider">
+				<div class="rs-slider__slider swiper">
+					<div class="rs-slider__swiper swiper-wrapper">
+						<div class="rs-slider__slide rs-slider__slide-1 swiper-slide rs-slider__slide-100">
+							<div class="rs-slider__item">
+								<div class="rs-slider__bg">
+									<picture class="img-mobile">
+										<source srcset="./img/pages/main/rs-slider/slider_1min.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_1min.jpg" alt="">
+									</picture>
+									<picture class="img-desktop">
+										<source srcset="./img/pages/main/rs-slider/slider_1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_1.jpg" alt="">
+									</picture>
+									<picture class="img-horizontal">
+										<source srcset="./img/pages/main/rs-slider/slider1_min2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider1_min2.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-slider__content">
+									<div class="rs-slider__container">
+										<div class="rs-slider__body">
+											<h2 class="large-title">Грязный щит</h2>
+											<a href="#" class="rs-btn _border-btn _white-btn">к товарам</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 2 -->
+						<div class="rs-slider__slide rs-slider__slide-2 swiper-slide rs-slider__slide-50">
+							<div class="rs-slider__item">
+								<div class="rs-slider__bg">
+									<picture class="img-mobile">
+										<source srcset="./img/pages/main/rs-slider/slider_2min.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_2min.jpg" alt="">
+									</picture>
+									<picture class="img-desktop">
+										<source srcset="./img/pages/main/rs-slider/slider_2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_2.jpg" alt="">
+									</picture>
+									<picture class="img-horizontal">
+										<source srcset="./img/pages/main/rs-slider/slider2_min2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider2_min2.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-slider__content">
+									<div class="rs-slider__container">
+										<div class="rs-slider__body">
+											<h2 class="large-title">Грязный щит</h2>
+											<a href="#" class="rs-btn _border-btn _white-btn">к товарам</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- 3 (Контент 3-его слайда, на моб.версии он переносится в слайд) -->
+							<div class="rs-slider__item" data-da=".rs-slider__slide-3, 992, first">
+								<div class="rs-slider__bg">
+									<picture class="img-mobile">
+										<source srcset="./img/pages/main/rs-slider/slider_3min.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_3min.jpg" alt="">
+									</picture>
+									<picture class="img-desktop">
+										<source srcset="./img/pages/main/rs-slider/slider_3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider_3.jpg" alt="">
+									</picture>
+									<picture class="img-horizontal">
+										<source srcset="./img/pages/main/rs-slider/slider3_min2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-slider/slider3_min2.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-slider__content rs-slider__content-right">
+									<div class="rs-slider__container">
+										<div class="rs-slider__body">
+											<h2 class="large-title">Лёгкий стиль</h2>
+											<a href="#" class="rs-btn _border-btn _white-btn">к товарам</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 3 -->
+						<!-- 
+							Свайпер не получилось настроить лучше, чтобы было удобнее натягивать верстку.
+							На десктопе блок пустой, слайд не рабочий и не считается как часть свайпера, 
+							а контент слайда находится во 2-ом слайде. 
+							На мобильной версии контент переносится в этот блок. 
+							В slider.js идет добавление класса для слайда, чтобы инициализаровать его.
+						 -->
+						<div class="rs-slider__slide rs-slider__slide-3">
+						</div>
+
+						<div class="rs-slider__slide rs-slider__slide-4 swiper-slide rs-slider__slide-100">
+							<div class="rs-slider__item">
+
+								<ul class="bgvideo__controls js-bgvideo-controls" style="display: flex;">
+									<li>
+										<button class="bgvideo__control" id="bgvideoPlaypause" type="button" title="Play/Pause">
+											<svg class="video-icon video-icon--pause is-active" aria-hidden="true" focusable="false">
+												<use xlink:href="./img/icons/video-controls.svg#ic-pause">
+												</use>
+											</svg>
+											<svg class="video-icon video-icon--play" aria-hidden="true" focusable="false">
+												<use xlink:href="./img/icons/video-controls.svg#ic-play-button">
+												</use>
+											</svg>
+										</button>
+									</li>
+
+									<li>
+										<button class="bgvideo__control" id="bgvideoStop" type="button" title="Stop">
+											<svg class="video-icon video-icon--stop" aria-hidden="true" focusable="false">
+												<use xlink:href="./img/icons/video-controls.svg#ic-stop">
+												</use>
+											</svg>
+										</button>
+									</li>
+
+									<li>
+										<button class="bgvideo__control" id="bgvideoMute" type="button" title="Mute">
+											<svg class="video-icon video-icon--speaker is-active" aria-hidden="true" focusable="false">
+												<use xlink:href="./img/icons/video-controls.svg#ic-speaker">
+												</use>
+											</svg>
+											<svg class="video-icon video-icon--mute" aria-hidden="true" focusable="false">
+												<use xlink:href="./img/icons/video-controls.svg#ic-mute">
+												</use>
+											</svg>
+										</button>
+									</li>
+								</ul>
+
+								<div class="rs-slider__bg bgvideo__video">
+									<video class="bgvideo js-bgvideo" loop="" autoplay="" muted="" poster="">
+										<source src="./img/pages/main/rs-slider/shild-video.webm" type="video/webm">
+										<source src="./img/pages/main/rs-slider/shild-video.mp4" type="video/mp4">
+									</video>
+								</div>
+
+								<div class="rs-slider__content">
+									<div class="rs-slider__container">
+										<div class="rs-slider__body">
+											<h2 class="large-title">Бритва</h2>
+											<a href="#" class="rs-btn _border-btn _white-btn">к товарам</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rs-slider__button-prev swiper-button-prev icon-slider-arrow_left"></div>
+					<div class="rs-slider__button-next swiper-button-next icon-slider-arrow_right"></div>
+					<div class="rs-slider__pagination swiper-pagination"></div>
+				</div>
+			</section>
+			<!-- /rs-slider -->
+
+			<!-- rs-new-product -->
+			<link rel="stylesheet" href="css/pages/main/rs-new-product.css">
+			<script src="js/pages/main/rs-new-product.js" defer></script>
+			<script src="js/pages/common/product.js" defer></script>
+			<section class="rs-new-product">
+				<div class="rs-new-product__container">
+					<h2 class="section-title">Новинки</h2>
+
+					<div class="rs-new-product__wrapper">
+						<div class="rs-new-product__slider swiper">
+							<div class="rs-new-product__swiper swiper-wrapper">
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov1.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov1.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov12.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov12.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<div class="product__color">
+													<ul>
+														<li class="black"></li>
+														<li class="brown"></li>
+														<li class="beige"></li>
+													</ul>
+												</div>
+												<h5 class="s-regular-title">БРЮКИ-КАРГО «ДЕСАНТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-old"><span>6 500</span>₽</div>
+														<div class="product__price product__price-new"><span>5 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-sale">-10%</div>
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">ПЕРЧАТКИ «ЖАККАРД»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>1 400</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КУРТКА-РУБАШКА «МЕХИКО»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>6 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КОЖАНАЯ КУРТКА «ПИЛОТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>29 000</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov1.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov1.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov12.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov12.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<div class="product__color">
+													<ul>
+														<li class="black"></li>
+														<li class="brown"></li>
+														<li class="beige"></li>
+													</ul>
+												</div>
+												<h5 class="s-regular-title">БРЮКИ-КАРГО «ДЕСАНТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-old"><span>6 500</span>₽</div>
+														<div class="product__price product__price-new"><span>5 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-sale">-10%</div>
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">ПЕРЧАТКИ «ЖАККАРД»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>1 400</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КУРТКА-РУБАШКА «МЕХИКО»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>6 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-new-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КОЖАНАЯ КУРТКА «ПИЛОТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>29 000</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rs-new-product__button-prev swiper-button-prev icon-slider-arrow_left"></div>
+						<div class="rs-new-product__button-next swiper-button-next icon-slider-arrow_right"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-new-product -->
+
+			<!-- rs-collection -->
+			<link rel="stylesheet" href="css/pages/main/rs-collection.css">
+			<section class="rs-collection">
+				<div class="rs-collection__wrapper">
+					<div class="rs-collection__item">
+						<div class="rs-collection__picture">
+							<picture>
+								<source srcset="./img/pages/main/rs-collection/pic_c1.webp" type="image/webp">
+								<img src="./img/pages/main/rs-collection/pic_c1.jpg" alt="">
+							</picture>
+						</div>
+
+						<div class="rs-collection__description">
+							<h2 class="large-title">ФЛИСОВАЯ БЕЙСБОЛКА</h2>
+							<a href="#" class="rs-btn _border-btn _white-btn">к товару</a>
+						</div>
+					</div>
+
+					<div class="rs-collection__item">
+						<div class="rs-collection__picture">
+							<picture>
+								<source srcset="./img/pages/main/rs-collection/pic_c2.webp" type="image/webp">
+								<img src="./img/pages/main/rs-collection/pic_c2.jpg" alt="">
+							</picture>
+						</div>
+
+						<div class="rs-collection__description">
+							<h2 class="large-title">ФУТБОЛКА «КОМПЛЕКТ»</h2>
+							<a href="#" class="rs-btn _border-btn _white-btn">к товару</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-collection -->
+
+			<!-- rs-popular-product -->
+			<link rel="stylesheet" href="css/pages/main/rs-popular-product.css">
+			<script src="js/pages/main/rs-popular-product.js" defer></script>
+			<section class="rs-popular-product">
+				<div class="rs-popular-product__container">
+					<h2 class="section-title">Популярные товары</h2>
+
+					<div class="rs-popular-product__wrapper">
+						<div class="rs-popular-product__slider swiper">
+							<div class="rs-popular-product__swiper swiper-wrapper">
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov1.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov1.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov12.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov12.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<div class="product__color">
+													<ul>
+														<li class="black"></li>
+														<li class="brown"></li>
+														<li class="beige"></li>
+													</ul>
+												</div>
+												<h5 class="s-regular-title">БРЮКИ-КАРГО «ДЕСАНТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-old"><span>6 500</span>₽</div>
+														<div class="product__price product__price-new"><span>5 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-sale">-10%</div>
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">ПЕРЧАТКИ «ЖАККАРД»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>1 400</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КУРТКА-РУБАШКА «МЕХИКО»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>6 900</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КОЖАНАЯ КУРТКА «ПИЛОТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>29 000</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov1.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov1.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov12.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov12.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<div class="product__color">
+													<ul>
+														<li class="black"></li>
+														<li class="brown"></li>
+														<li class="beige"></li>
+													</ul>
+												</div>
+												<h5 class="s-regular-title">БРЮКИ-КАРГО «ДЕСАНТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-old"><span>6 500</span>₽</div>
+														<div class="product__price product__price-new"><span>5 900</span>₽</div>
+													</div>
+
+													<div class="product__labels">
+														<div class="product__label product__label-sale">-10%</div>
+														<div class="product__label product__label-new">Новинки</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov2.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov2.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">ПЕРЧАТКИ «ЖАККАРД»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>1 400</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov3.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov3.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КУРТКА-РУБАШКА «МЕХИКО»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>6 900</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="rs-popular-product__slide swiper-slide">
+									<div class="product">
+										<a href="#">
+											<div class="product__picture">
+												<div class="product__slider swiper">
+													<div class="product__swiper swiper-wrapper">
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+
+														<div class="product__slide swiper-slide">
+															<picture>
+																<source srcset="./img/pages/product-picture/pic_tov4.webp" type="image/webp">
+																<img src="./img/pages/product-picture/pic_tov4.jpg" alt="">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product__description">
+												<h5 class="s-regular-title">КОЖАНАЯ КУРТКА «ПИЛОТ»</h5>
+
+												<div class="product__footer">
+													<div class="product__prices">
+														<div class="product__price product__price-current"><span>29 000</span>₽</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rs-popular-product__button-prev swiper-button-prev icon-slider-arrow_left"></div>
+						<div class="rs-popular-product__button-next swiper-button-next icon-slider-arrow_right"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-popular-product -->
+
+			<!-- rs-media -->
+			<link rel="stylesheet" href="css/pages/main/rs-media.css">
+			<script src="js/pages/main/rs-media.js" defer></script>
+			<section class="rs-media">
+				<div class="rs-media__container">
+					<h2 class="section-title"><a href="#">Медиа</a></h2>
+
+					<div class="rs-media__slider swiper">
+						<div class="rs-media__swiper swiper-wrapper">
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item rs-media__item-big">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n1.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n1.jpg" alt="">
+										</picture>
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n1min.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n1min.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Знакомим Вас с сердцем нашей компании – производством​, офисом и
+												коллективом!</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n2.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n2.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Долгожданная джерси «Скорость»
+												снова в наличии</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n3.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n3.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Свитер «молоко»</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n4.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n4.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Иван Трясов в нашем новом флисовом худи</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n5.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n5.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Move back motherfuckers — the ONYX is here!</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="rs-media__slide swiper-slide">
+								<div class="rs-media__item">
+									<div class="rs-media__picture">
+										<picture>
+											<source srcset="./img/pages/main/rs-media/pic_n6.webp" type="image/webp">
+											<img src="./img/pages/main/rs-media/pic_n6.jpg" alt="">
+										</picture>
+									</div>
+
+									<div class="rs-media__description">
+										<a href="#">
+											<h4 class="l-regular-title">Джерси «скорость»</h4>
+										</a>
+										<a href="#" class="rs-btn _border-btn _white-btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-media -->
+
+			<!-- rs-inst -->
+			<link rel="stylesheet" href="css/pages/main/rs-inst.css">
+			<script src="js/pages/main/rs-inst.js" defer></script>
+			<section class="rs-inst">
+				<div class="rs-inst__container">
+					<h2 class="large-title"><a class="icon-inst" href="#">spb_shield</a></h2>
+
+					<div class="rs-inst__wrapper">
+						<div class="rs-inst__slider swiper">
+							<div class="rs-inst__swiper swiper-wrapper">
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g1.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g2.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g4.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g4.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g3.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g1.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g1.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g2.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g2.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g4.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g4.jpg" alt="">
+									</picture>
+								</div>
+
+								<div class="rs-inst__slide swiper-slide">
+									<picture>
+										<source srcset="./img/pages/main/rs-inst/pic_g3.webp" type="image/webp">
+										<img src="./img/pages/main/rs-inst/pic_g3.jpg" alt="">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="rs-inst__button-prev swiper-button-prev icon-menu-arrow_left"></div>
+						<div class="rs-inst__button-next swiper-button-next icon-menu-arrow_right"></div>
+					</div>
+				</div>
+			</section>
+			<!-- /rs-inst -->
+
+		</main>
+		<!-- /page -->
+
+		<!-- rs-footer -->
+		<link rel="stylesheet" href="css/rs-footer.css">
+		<footer>
+			<div class="rs-footer">
+				<div class="rs-footer__container">
+					<div class="rs-footer__list" data-da=".rs-footer__container, 992, first">
+						<div class="rs-footer__item">
+							<h6 class="small-title">магазин</h6>
+
+							<div class="contact-list">
+								<ul>
+									<li><a href="tel:79213443330">+7 (921) 344-33-30</a></li>
+									<li><span>Пн-Вс: с 12:00 до 21:00</span></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__item">
+							<h6 class="small-title">интернет-магазин</h6>
+
+							<div class="contact-list">
+								<ul>
+									<li><a href="tel:79311030582">+7 (931) 103-05-82</a></li>
+									<li><span>Пн-Пт: с 10.00 до 18.00 </span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__center" data-da=".rs-footer__container, 992, last">
+						<div class="rs-footer__logo">
+							<a href="#">
+								<img src="./img/footer/logo-white.svg" alt="">
+							</a>
+						</div>
+
+						<div class="rs-footer__social">
+							<div class="social-list">
+								<ul>
+									<li><a href="#" class="tg-link icon-tg"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="yt-link icon-youtube"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="vk-link icon-vk"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="wa-link icon-wa"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+									<li><a href="#" class="inst-link icon-inst"></a>
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+											height="40" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40" xml:space="preserve">
+											<circle cx="20" cy="20" r="19"></circle>
+										</svg>
+									</li>
+								</ul>
+							</div>
+
+							<div class="rs-footer__bottom">
+								<div class="rs-footer__copyright">
+									© Питерский Щит 2022. Все права защищены.
+								</div>
+								<div class="rs-footer__develop">
+									<a href="#">Разработано в россайт</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__list" data-da=".rs-footer__container, 992, 0">
+						<div class="rs-footer__item">
+							<div class="contact-list">
+								<ul>
+									<li><a href="spbshield@yandex.ru">spbshield@yandex.ru </a></li>
+									<li><span>Санкт-Петербург, ул. Жуковского, 13</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /rs-footer -->
+
+	</div>
+	<!-- /wrapper -->
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/lightgallery@2.4.0/lightgallery.min.js"></script>
+	<script src="https://unpkg.com/lightgallery@2.4.0/plugins/zoom/lg-zoom.umd.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 500,
+			easing: 'ease-out-quart',
+			once: true
+		});
+	</script>
+	<script src="lib/dynamic_adapt.js"></script>
+	<script src="js/rs-script.js"></script>
+
+</body>
+
+</html>
